@@ -27,25 +27,15 @@ REQUIRED_KEYS = [
 
 # Define the optional API keys
 OPTIONAL_KEYS = [
-    "ANTHROPIC_API_KEY",      # Anthropic API key (for Claude models)
     "GOOGLE_API_KEY",         # Google API key (for search, etc.)
-    "GOOGLE_CSE_ID",          # Google Custom Search Engine ID
-    "BING_SEARCH_V7_KEY",     # Bing Search API key
-    "BING_SEARCH_V7_ENDPOINT", # Bing Search API endpoint
     "SERPAPI_API_KEY",        # SerpAPI key (for search)
     "GEMINI_API_KEY",         # Google Gemini API key
     "AZURE_OPENAI_API_KEY",   # Azure OpenAI API key
-    "AZURE_OPENAI_ENDPOINT",  # Azure OpenAI endpoint
-    "MISTRAL_API_KEY",        # Mistral AI API key
     "NOVITA_API_KEY",         # Novita AI API key
-    "TOGETHER_API_KEY",       # Together AI API key
     "GROQ_API_KEY",           # Groq API key
     "QWEN_API_KEY",           # Qwen API key
     "PPIO_API_KEY",           # PPIO API key
     "DEEPSEEK_API_KEY",       # Deepseek API key
-    "OPENROUTER_API_KEY",     # OpenRouter API key
-    "VOLCENGINE_ACCESS_KEY",  # Volcengine access key
-    "VOLCENGINE_SECRET_KEY",  # Volcengine secret key
 ]
 
 def load_env_files() -> List[str]:
