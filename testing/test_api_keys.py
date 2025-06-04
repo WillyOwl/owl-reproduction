@@ -58,7 +58,7 @@ def load_env_files() -> List[str]:
     loaded_files = []
     
     # Only check the project root .env file
-    owl_root_env = Path("/home/willyowl/owl/owl/.env")
+    owl_root_env = Path("/home/willyowl/owl-reproduction/owl/.env")
     if owl_root_env.exists():
         load_dotenv(dotenv_path=owl_root_env)
         loaded_files.append(str(owl_root_env))
