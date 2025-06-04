@@ -29,7 +29,6 @@ DEPENDENCIES = [
     ("docx2markdown", ["docx2markdown"]),
     ("xmltodict", ["xmltodict"]),
     ("firecrawl", ["firecrawl"]),
-    ("mistralai", ["mistralai"]),
     ("mcp-simple-arxiv", ["mcp_simple_arxiv"]),
     ("mcp-server-fetch", ["mcp_server_fetch"]),
     
