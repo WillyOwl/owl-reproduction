@@ -110,6 +110,11 @@ This document outlines the steps to set up the development environment for the O
 - Test basic functionality
 
 **Testing Method:**
-- Create a comprehensive test script that verifies all components
-- Run the script and check for any errors or warnings
+- Use the comprehensive test scripts in the `testing` directory:
+  - `test_environment.py`: Verifies all environment components
+  - `test_dependencies.py`: Checks all required dependencies
+  - `test_api_keys.py`: Verifies API key configuration
+  - `test_playwright.py`: Tests Playwright installation and browser automation
+- Run all tests with the `run_all_tests.sh` script
+- Check for any errors or warnings in the test output
 - Document any issues for troubleshooting 
